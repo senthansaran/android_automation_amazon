@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="197.818" tests="16" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/terralogic/Documents/workspace/ebay"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/terralogic/Documents/workspace/ebay"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/pz/qs1_ftn94gx7x2k7y77bwcb80000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/terralogic/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8835721515675713160.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/terralogic/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/terralogic"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="terralogic"/>
+    <property name="java.class.path" value="/Users/terralogic/eclipse/jee-neon/Eclipse.app/Contents/Eclipse/../../../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="/Users/terralogic/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/terralogic/Documents/workspace/ebay/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="existingusersignin" classname="automation.ebay.Login_Existing_User" time="12.141"/>
+  <testcase name="switchmsgapp" classname="automation.ebay.Login_Existing_User" time="0.921"/>
+  <testcase name="viewmsg" classname="automation.ebay.Login_Existing_User" time="22.009"/>
+  <testcase name="userlangpref" classname="automation.ebay.Login_Existing_User" time="23.226"/>
+  <testcase name="navtoAddresform" classname="automation.ebay.Login_Existing_User" time="12.48"/>
+  <testcase name="selectnewAddresform" classname="automation.ebay.Login_Existing_User" time="4.066"/>
+  <testcase name="filldeliveryaddress" classname="automation.ebay.Login_Existing_User" time="8.042"/>
+  <testcase name="verifydropdown" classname="automation.ebay.Login_Existing_User" time="3.127"/>
+  <testcase name="verifydropdown" classname="automation.ebay.Login_Existing_User" time="14.427"/>
+  <testcase name="verifySaveAddressConfirmation" classname="automation.ebay.Login_Existing_User" time="4.158"/>
+  <testcase name="navigatehome" classname="automation.ebay.Login_Existing_User" time="4.973"/>
+  <testcase name="searchTV" classname="automation.ebay.Login_Existing_User" time="10.149"/>
+  <testcase name="scrollTVlistSelect" classname="automation.ebay.Login_Existing_User" time="13.364"/>
+  <testcase name="tvDetails" classname="automation.ebay.Login_Existing_User" time="31.364"/>
+  <testcase name="gotocartview" classname="automation.ebay.Login_Existing_User" time="4.58"/>
+  <testcase name="proceedpay" classname="automation.ebay.Login_Existing_User" time="7.223">
+    <failure message="expected [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV...] but found [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV 43P8 (Black) (2019 Model)]" type="java.lang.AssertionError">java.lang.AssertionError: expected [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV...] but found [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV 43P8 (Black) (2019 Model)]
+	at automation.ebay.Login_Existing_User.proceedpay(Login_Existing_User.java:224)
+</failure>
+    <system-out><![CDATA[07-20-2020 18:09:36 ProceedPayPageActions.java INFO  [main] pageActions.ProceedPayPageActions 37 - ****The Tv Des in Cart is TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV... ****
+]]></system-out>
+  </testcase>
+</testsuite>

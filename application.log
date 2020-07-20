@@ -1,0 +1,67 @@
+2020-07-20 18:06:22,451  INFO [main] Des_Caps:36 - ****Config.properties File loaded Successfully****
+2020-07-20 18:06:39,187  INFO [main] Des_Caps:55 - ****DesiredCapabilities Loaded Succesfully****
+2020-07-20 18:06:42,034  INFO [main] LoginPageActions:36 - Clicked as Existing User Sign-in Buttons Successfully
+2020-07-20 18:06:44,663  INFO [main] LoginPageActions:41 - Entered the UserId in TextBox Successfully
+2020-07-20 18:06:45,781  INFO [main] LoginPageActions:46 - Clicked the Continue Button Successfully
+2020-07-20 18:06:50,830  INFO [main] LoginPageActions:57 - Clicked on Get An OTP PassWord Btn Successfully
+2020-07-20 18:07:04,737  INFO [main] SendOTPPageActions:35 - OTP MSG is Displaed
+2020-07-20 18:07:05,207  INFO [main] SendOTPPageActions:37 - ****Complet Text Msg is 278424 is your Amazon OTP. Do not share it with anyone. ****
+2020-07-20 18:07:05,207  INFO [main] SendOTPPageActions:40 - After SubString and Extract the Six Digit OTP is 278424
+2020-07-20 18:07:13,038  INFO [main] SendOTPPageActions:56 - Entered the OTP in TextBox Successfully
+2020-07-20 18:07:14,019  INFO [main] SendOTPPageActions:62 - Clicked on Confirm OTP Button Successfully
+2020-07-20 18:07:25,425  INFO [main] LangPageActions:28 - Select Language Radio Button is Enabled
+2020-07-20 18:07:28,415  INFO [main] LangPageActions:35 - Language Save Button is Enabled to Click
+2020-07-20 18:07:42,453  INFO [main] DeliveryAddressPageActions:32 - ****Cliked the Left Menu Successfully****
+2020-07-20 18:07:49,723  INFO [main] DeliveryAddressPageActions:39 - ****Cliked Your Account Succesfully****
+2020-07-20 18:07:51,266  INFO [main] DeliveryAddressPageActions:47 - ****Cliked Your Address Successfully****
+2020-07-20 18:07:53,822  INFO [main] DeliveryAddressPageActions:54 - ****Cliked Add New Address Successfully****
+2020-07-20 18:07:55,953  INFO [main] AddressFormPageActions:38 - ****Full Name Entered Successfully****
+2020-07-20 18:07:56,697  INFO [main] AddressFormPageActions:42 - ****Mobile Number Enter Successfully****
+2020-07-20 18:07:57,456  INFO [main] AddressFormPageActions:46 - ****Zip Code Entered Succesfully****
+2020-07-20 18:07:58,713  INFO [main] AddressFormPageActions:50 - ****Address Line 1 Added Succesfully****
+2020-07-20 18:07:59,803  INFO [main] AddressFormPageActions:54 - ****Address Line 2 Added Succesfully****
+2020-07-20 18:08:01,980  INFO [main] AddressFormPageActions:57 - ****KeyPad Dismissed****
+2020-07-20 18:08:02,240  INFO [main] AddressFormPageActions:61 - ****Land Mark Entered Succesfully****
+2020-07-20 18:08:03,722  INFO [main] AddressFormPageActions:68 - ****AssertEquals True -->Distric Auto Populdated As Per ZipCode Entered****
+2020-07-20 18:08:05,607  INFO [main] AddressFormPageActions:79 - ****State Auto Populated and Get Auto Selected As Per Zip Code Entered****
+2020-07-20 18:08:06,616  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:08:12,679  INFO [main] AddressFormPageActions:87 - ****Scroll to Delivery Time Preference Button Succesfully and Clicked****
+2020-07-20 18:08:15,479  INFO [main] AddressFormPageActions:93 - *****Selected the User Pereferd Delivery Tim****
+2020-07-20 18:08:15,498  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:08:20,586  INFO [main] AddressFormPageActions:100 - ****Save Address Form is Clicked Successfully****
+2020-07-20 18:08:24,470  INFO [main] AddressFormPageActions:108 - *******Address Saved Prompt Displayed Successfully*******
+2020-07-20 18:08:24,779  INFO [main] AddressFormPageActions:112 - *******AssertEauals --> Address Save Form Success Prompt is Displayed as Expected
+2020-07-20 18:08:33,358  INFO [main] SearchPageActions:34 - Assert True -> Search TextBox is Enable to Entered the KeyWord Successfully
+2020-07-20 18:08:35,723  INFO [main] SearchPageActions:46 - Assert True -> Search Text Allowed to Enter the Prod Name Successfully
+2020-07-20 18:08:37,262  INFO [main] SearchPageActions:51 - Assert True -> DropDown is Display the list of Product
+2020-07-20 18:08:37,505  INFO [main] SearchPageActions:53 - ****The Search Result Response is65 inch tv 4k smart android tv****
+2020-07-20 18:08:37,505  INFO [main] SearchPageActions:55 - Response from List----->65 inch tv 4k smart android tv 65 inch tv****
+2020-07-20 18:08:37,505  INFO [main] SearchPageActions:56 - ****Assert True -> Search Result Contains the String of search Product****
+2020-07-20 18:08:39,677  INFO [main] SearchPageActions:58 - ****Assert True -> Search Result Selected the result Successfully****
+2020-07-20 18:08:40,372  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:08:43,325  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:08:46,663  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:08:49,728  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:09:08,392  INFO [main] GetTvPageActions:36 - ****Get the TV Brand Name Tex is ****
+2020-07-20 18:09:09,031  INFO [main] GetTvPageActions:40 - ****Get the About Tv Tex is TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV 43P8 (Black) (2019 Model)****
+2020-07-20 18:09:09,044  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:09:13,734  INFO [main] GetTvPageActions:46 - ****Scrolled to TV Price Successfully****
+2020-07-20 18:09:13,913  INFO [main] GetTvPageActions:48 - ****Get the Tv Price Tex is rupees 26,999****
+2020-07-20 18:09:13,913  INFO [main] GetTvPageActions:52 - ****After SubString of TV Price Tex is 26,999
+2020-07-20 18:09:13,932  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:09:18,636  INFO [main] ReusableMethod:67 - ****Starting X Axis Corrdinates: 360Starting Y Axis Corrdinates: 1240 And End of Y Axis Corrdinates: 826 ****
+2020-07-20 18:09:23,651  INFO [main] GetTvPageActions:60 - ****Scrolled to +addcardbtntext+ Successfully****
+2020-07-20 18:09:24,526  INFO [main] GetTvPageActions:62 - ****Clicked on Add to Cart button Succesfully****
+2020-07-20 18:09:29,158  INFO [main] GoCartPageActions:50 - ****Go To Cart Button Clicked Successfully****
+2020-07-20 18:09:36,328  INFO [main] ProceedPayPageActions:37 - ****The Tv Des in Cart is TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV... ****
+2020-07-20 18:09:37,228  INFO [main] Des_Caps:60 - ****Appium Driver Quit Successfully****
+2020-07-20 18:09:37,539 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-07-20 18:09:37,540 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-07-20 18:09:37,542 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-07-20 18:09:37,543 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-07-20 18:09:37,543 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/terralogic/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-07-20 18:09:37,897 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-07-20 18:09:37,898 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-07-20 18:09:37,900 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-07-20 18:09:37,901 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-07-20 18:09:37,908 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/terralogic/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

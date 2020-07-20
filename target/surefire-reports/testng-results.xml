@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="16" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Automation Suite" duration-ms="194863" started-at="2020-07-20T12:36:22Z" finished-at="2020-07-20T12:39:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="194863" started-at="2020-07-20T12:36:22Z" finished-at="2020-07-20T12:39:37Z">
+      <class name="automation.ebay.Login_Existing_User">
+        <test-method status="PASS" signature="beforestart()[pri:0, instance:automation.ebay.Login_Existing_User@5c371e13]" name="beforestart" is-config="true" duration-ms="16780" started-at="2020-07-20T12:36:22Z" finished-at="2020-07-20T12:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforestart -->
+        <test-method status="PASS" signature="existingusersignin(java.lang.String)[pri:0, instance:automation.ebay.Login_Existing_User@5c371e13]" name="existingusersignin" duration-ms="11611" started-at="2020-07-20T12:36:39Z" finished-at="2020-07-20T12:36:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arunsiva.g@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingusersignin -->
+        <test-method status="PASS" signature="switchmsgapp(java.lang.String, java.lang.String)[pri:1, instance:automation.ebay.Login_Existing_User@5c371e13]" name="switchmsgapp" duration-ms="367" started-at="2020-07-20T12:36:51Z" finished-at="2020-07-20T12:36:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.android.mms]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.android.mms.ui.ConversationList]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchmsgapp -->
+        <test-method status="PASS" signature="viewmsg()[pri:2, instance:automation.ebay.Login_Existing_User@5c371e13]" name="viewmsg" duration-ms="21569" started-at="2020-07-20T12:36:52Z" finished-at="2020-07-20T12:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewmsg -->
+        <test-method status="PASS" signature="userlangpref()[pri:3, instance:automation.ebay.Login_Existing_User@5c371e13]" name="userlangpref" duration-ms="22442" started-at="2020-07-20T12:37:14Z" finished-at="2020-07-20T12:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlangpref -->
+        <test-method status="PASS" signature="navtoAddresform()[pri:4, instance:automation.ebay.Login_Existing_User@5c371e13]" name="navtoAddresform" duration-ms="12036" started-at="2020-07-20T12:37:37Z" finished-at="2020-07-20T12:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navtoAddresform -->
+        <test-method status="PASS" signature="selectnewAddresform()[pri:5, instance:automation.ebay.Login_Existing_User@5c371e13]" name="selectnewAddresform" duration-ms="3654" started-at="2020-07-20T12:37:50Z" finished-at="2020-07-20T12:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectnewAddresform -->
+        <test-method status="PASS" signature="filldeliveryaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:automation.ebay.Login_Existing_User@5c371e13]" name="filldeliveryaddress" duration-ms="7507" started-at="2020-07-20T12:37:55Z" data-provider="getdeliveryaddress" finished-at="2020-07-20T12:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestName One]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9916171430]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[576104]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rajathadri Road, #1234 Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vidyaratna Nagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Manipal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldeliveryaddress -->
+        <test-method status="PASS" signature="verifydropdown(java.lang.String)[pri:7, instance:automation.ebay.Login_Existing_User@5c371e13]" name="verifydropdown" duration-ms="2661" started-at="2020-07-20T12:38:03Z" finished-at="2020-07-20T12:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UDUPI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydropdown -->
+        <test-method status="PASS" signature="verifydropdown()[pri:8, instance:automation.ebay.Login_Existing_User@5c371e13]" name="verifydropdown" duration-ms="13999" started-at="2020-07-20T12:38:06Z" finished-at="2020-07-20T12:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydropdown -->
+        <test-method status="PASS" signature="verifySaveAddressConfirmation(java.lang.String)[pri:9, instance:automation.ebay.Login_Existing_User@5c371e13]" name="verifySaveAddressConfirmation" duration-ms="3761" started-at="2020-07-20T12:38:21Z" finished-at="2020-07-20T12:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Address saved]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveAddressConfirmation -->
+        <test-method status="PASS" signature="navigatehome()[pri:10, instance:automation.ebay.Login_Existing_User@5c371e13]" name="navigatehome" duration-ms="4320" started-at="2020-07-20T12:38:25Z" finished-at="2020-07-20T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatehome -->
+        <test-method status="PASS" signature="searchTV(java.lang.String)[pri:11, instance:automation.ebay.Login_Existing_User@5c371e13]" name="searchTV" duration-ms="9525" started-at="2020-07-20T12:38:30Z" finished-at="2020-07-20T12:38:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[65 inch tv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTV -->
+        <test-method status="PASS" signature="scrollTVlistSelect()[pri:12, instance:automation.ebay.Login_Existing_User@5c371e13]" name="scrollTVlistSelect" duration-ms="12792" started-at="2020-07-20T12:38:40Z" finished-at="2020-07-20T12:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollTVlistSelect -->
+        <test-method status="PASS" signature="tvDetails()[pri:13, instance:automation.ebay.Login_Existing_User@5c371e13]" name="tvDetails" duration-ms="30858" started-at="2020-07-20T12:38:53Z" finished-at="2020-07-20T12:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvDetails -->
+        <test-method status="PASS" signature="gotocartview()[pri:14, instance:automation.ebay.Login_Existing_User@5c371e13]" name="gotocartview" duration-ms="4123" started-at="2020-07-20T12:39:25Z" finished-at="2020-07-20T12:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotocartview -->
+        <test-method status="FAIL" signature="proceedpay()[pri:15, instance:automation.ebay.Login_Existing_User@5c371e13]" name="proceedpay" duration-ms="6713" started-at="2020-07-20T12:39:29Z" finished-at="2020-07-20T12:39:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV...] but found [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV 43P8 (Black) (2019 Model)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV...] but found [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV 43P8 (Black) (2019 Model)]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at pageActions.ProceedPayPageActions.getTvDesatPay(ProceedPayPageActions.java:38)
+at automation.ebay.Login_Existing_User.proceedpay(Login_Existing_User.java:224)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedpay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.ebay.Login_Existing_User@5c371e13]" name="tearDown" is-config="true" duration-ms="389" started-at="2020-07-20T12:39:36Z" finished-at="2020-07-20T12:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.ebay.Login_Existing_User -->
+    </test> <!-- Test -->
+  </suite> <!-- Amazon Automation Suite -->
+</testng-results>

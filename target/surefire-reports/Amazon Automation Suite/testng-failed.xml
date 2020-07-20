@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Amazon Automation Suite]">
+  <listeners>
+    <listener class-name="utils.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="expectedautopopulatecityname" value="UDUPI"/>
+    <parameter name="userid" value="arunsiva.g@gmail.com"/>
+    <parameter name="udupipin" value="576101"/>
+    <parameter name="expetedSaveMsg" value="Address saved"/>
+    <parameter name="msgpkg" value="com.android.mms"/>
+    <parameter name="productName" value="65 inch tv"/>
+    <parameter name="msgactivty" value="com.android.mms.ui.ConversationList"/>
+    <classes>
+      <class name="automation.ebay.Login_Existing_User">
+        <methods>
+          <include name="proceedpay"/>
+          <include name="beforestart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automation.ebay.Login_Existing_User -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Suite] -->

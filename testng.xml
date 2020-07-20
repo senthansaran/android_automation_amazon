@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Automation Suite" verbose="5">
+<listeners>
+		<listener class-name="utils.ExtentReporterNG" />
+	</listeners>
+  <test name="Test">
+    <!-- Enter the Appropriate DesiredCapabilities to launch the App  
+    <parameter name="app" value="/apps/amazonapk/Amazon_shopping.apk" />
+	<parameter name="deviceName" value="realme 3i" />
+	<parameter name="udid" value="JRW4GQMNCECM6PLR" />
+	<parameter name="platformName" value="Android" />
+	<parameter name="platformVersion" value="10.0" />
+	<parameter name="automationName" value="Appium" />
+	<parameter name="appactivity" value="com.amazon.mShop.splashscreen.StartupActivity" />
+	<parameter name="apppackage" value="com.amazon.mShop.android.shopping" />
+	<parameter name="permission" value="true" />
+	<parameter name="appiumurl" value="http://0.0.0.0:4723/wd/hub" />
+	-->
+	<!-- Enter the Amazon App UserDetails in Value filed Either Mobile Number or Email ID -->
+    <parameter name="userid" value="arunsiva.g@gmail.com" />
+    
+    <!-- Enter the Message App Package and Activity Details Below to Switch Apps -->
+    <parameter name="msgpkg" value="com.android.mms" />
+    <parameter name="msgactivty" value="com.android.mms.ui.ConversationList" />
+    
+    <!-- Enter the Search Product KeyWord  -->
+    <parameter name="productName" value="65 inch tv"/>
+    
+    <!-- Enter the GreenZone PinCode to Move the Product to Cart -->
+    <parameter name="udupipin" value="576101"/>
+    
+    <parameter name="expectedautopopulatecityname" value="UDUPI" />
+    <parameter name="expetedSaveMsg" value="Address saved" />
+        
+    <classes>
+      <class name="automation.ebay.Login_Existing_User"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

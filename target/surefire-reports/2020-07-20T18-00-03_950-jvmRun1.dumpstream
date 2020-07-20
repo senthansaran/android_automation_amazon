@@ -1,0 +1,37 @@
+# Created on 2020-07-20T18:03:14.258
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2020-07-20T18:03:17.057
+Unexpected IOException: 6,1,automation.ebay.Login_Existing_User,scrollTVlistSelect(automation.ebay.Login_Existing_User),null,null,null
+
+
+# Created on 2020-07-20T18:03:17.059
+Unexpected IOException: 5,1,automation.ebay.Login_Existing_User,tvDetails(automation.ebay.Login_Existing_User),automation.ebay.Login_Existing_User,null,null
+
+
+# Created on 2020-07-20T18:03:39.068
+Unexpected IOException: 8,1,automation.ebay.Login_Existing_User,tvDetails(automation.ebay.Login_Existing_User),null,Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AndroidUIAutomator: new UiSelector().resourceId("bylineInfo")}) (tried for 15 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AndroidUIAutomator: new UiSelector().resourceId("bylineInfo")}) (tried for 15 second(s) with 500 milliseconds interval),Login_Existing_User.tvDetails:205 \00BB Timeout Expected condition failed: waiting...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AndroidUIAutomator: new UiSelector().resourceId("bylineInfo")}) (tried for 15 second(s) with 500 milliseconds interval)\000A\0009at automation.ebay.Login_Existing_User.tvDetails(Login_Existing_User.java:205)\000ACaused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AndroidUIAutomator: new UiSelector().resourceId("bylineInfo")})\000A\0009at automation.ebay.Login_Existing_User.tvDetails(Login_Existing_User.java:205)\000ACaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4b336cc8 (tried for 1 second(s) with 500 milliseconds interval)\000A\0009at automation.ebay.Login_Existing_User.tvDetails(Login_Existing_User.java:205)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using By.chained({By.AndroidUIAutomator: new UiSelector().resourceId("bylineInfo")})\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Terralogics-MacBook-Pro-2.local'\002C ip: 'fe80:0:0:0:80f:7172:aa2e:b854%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.15.5'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: AndroidDriver\000A\0009at automation.ebay.Login_Existing_User.tvDetails(Login_Existing_User.java:205)\000A
+
+
+# Created on 2020-07-20T18:03:39.070
+Unexpected IOException: 5,1,automation.ebay.Login_Existing_User,gotocartview(automation.ebay.Login_Existing_User),automation.ebay.Login_Existing_User,null,null
+
+
+# Created on 2020-07-20T18:03:42.840
+Unexpected IOException with stream: 07-20-2020 18:03:42 GoCartPageActions.java INFO  [main] pageActions.GoCartPageActions 50 - ****Go To Cart Button Clicked Successfully****
+
+
+# Created on 2020-07-20T18:03:43.413
+Unexpected IOException: 6,1,automation.ebay.Login_Existing_User,gotocartview(automation.ebay.Login_Existing_User),null,null,null
+
+
+# Created on 2020-07-20T18:03:43.416
+Unexpected IOException: 5,1,automation.ebay.Login_Existing_User,proceedpay(automation.ebay.Login_Existing_User),automation.ebay.Login_Existing_User,null,null
+
+
