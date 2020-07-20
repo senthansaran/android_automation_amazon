@@ -1,0 +1,150 @@
+{
+  "uid" : "e9afa3d9e9f50f72",
+  "name" : "scrollTVlistSelect",
+  "fullName" : "automation.ebay.Login_Existing_User.scrollTVlistSelect",
+  "historyId" : "5f324b0838377a56ff8daa4d8bc8a134",
+  "time" : {
+    "start" : 1595248720307,
+    "stop" : 1595248733669,
+    "duration" : 13362
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforestart",
+    "time" : {
+      "start" : 1595248582443,
+      "stop" : 1595248599190,
+      "duration" : 16747
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d3370fea27a48fd3",
+      "name" : "saveSuccessScreenShot",
+      "source" : "d3370fea27a48fd3.png",
+      "type" : "image/png",
+      "size" : 361421
+    }, {
+      "uid" : "20aa756fc8c7e3a",
+      "name" : "scrollTVlistSelect failed and screenshot taken!",
+      "source" : "20aa756fc8c7e3a.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1595248776840,
+      "stop" : 1595248777228,
+      "duration" : 388
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testClass",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testMethod",
+    "value" : "scrollTVlistSelect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Amazon Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "host",
+    "value" : "Terralogics-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7008@Terralogics-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expectedautopopulatecityname",
+    "value" : "UDUPI"
+  }, {
+    "name" : "expetedSaveMsg",
+    "value" : "Address saved"
+  }, {
+    "name" : "msgactivty",
+    "value" : "com.android.mms.ui.ConversationList"
+  }, {
+    "name" : "msgpkg",
+    "value" : "com.android.mms"
+  }, {
+    "name" : "productName",
+    "value" : "65 inch tv"
+  }, {
+    "name" : "udupipin",
+    "value" : "576101"
+  }, {
+    "name" : "userid",
+    "value" : "arunsiva.g@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "791fd75ba8d35fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595248384592,
+        "stop" : 1595248397058,
+        "duration" : 12466
+      }
+    }, {
+      "uid" : "597b63382ef430c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595246285761,
+        "stop" : 1595246299423,
+        "duration" : 13662
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9afa3d9e9f50f72.json",
+  "parameterValues" : [ "UDUPI", "Address saved", "com.android.mms.ui.ConversationList", "com.android.mms", "65 inch tv", "576101", "arunsiva.g@gmail.com" ]
+}

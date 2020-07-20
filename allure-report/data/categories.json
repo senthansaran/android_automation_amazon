@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.ViewAnimator/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView}) (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "setgreenzonelocation",
+        "uid" : "970b128aaeaa9ff3",
+        "parentUid" : "fcb0702e8c9bfb377c69d80b59aa6586",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595248337985,
+          "stop" : 1595248361942,
+          "duration" : 23957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "576101", "UDUPI", "Address saved", "com.android.mms.ui.ConversationList", "com.android.mms", "65 inch tv", "576101", "arunsiva.g@gmail.com" ]
+      } ],
+      "uid" : "fcb0702e8c9bfb377c69d80b59aa6586"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV...] but found [TCL 108 cm (43 inches)  AI 4K UHD Certified Android Smart LED TV 43P8 (Black) (2019 Model)]",
+      "children" : [ {
+        "name" : "proceedpay",
+        "uid" : "6b27d381f8bba217",
+        "parentUid" : "cc568a335f30f9356317bd2b4b7a1c5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595248769617,
+          "stop" : 1595248776838,
+          "duration" : 7221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "UDUPI", "Address saved", "com.android.mms.ui.ConversationList", "com.android.mms", "65 inch tv", "576101", "arunsiva.g@gmail.com" ]
+      } ],
+      "uid" : "cc568a335f30f9356317bd2b4b7a1c5f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

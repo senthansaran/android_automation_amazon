@@ -1,0 +1,162 @@
+{
+  "uid" : "86cb21a7613123a9",
+  "name" : "verifydropdown",
+  "fullName" : "automation.ebay.Login_Existing_User.verifydropdown",
+  "historyId" : "f91c60a9b2d0552ab3c857d52f3c72ac",
+  "time" : {
+    "start" : 1595248683465,
+    "stop" : 1595248686586,
+    "duration" : 3121
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforestart",
+    "time" : {
+      "start" : 1595248582443,
+      "stop" : 1595248599190,
+      "duration" : 16747
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "22a984930e85bb1c",
+      "name" : "saveSuccessScreenShot",
+      "source" : "22a984930e85bb1c.png",
+      "type" : "image/png",
+      "size" : 94780
+    }, {
+      "uid" : "42933a5d7b2b01e9",
+      "name" : "verifydropdown failed and screenshot taken!",
+      "source" : "42933a5d7b2b01e9.txt",
+      "type" : "text/plain",
+      "size" : 43
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1595248776840,
+      "stop" : 1595248777228,
+      "duration" : 388
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testClass",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifydropdown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Amazon Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "host",
+    "value" : "Terralogics-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7008@Terralogics-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "UDUPI"
+  }, {
+    "name" : "expectedautopopulatecityname",
+    "value" : "UDUPI"
+  }, {
+    "name" : "expetedSaveMsg",
+    "value" : "Address saved"
+  }, {
+    "name" : "msgactivty",
+    "value" : "com.android.mms.ui.ConversationList"
+  }, {
+    "name" : "msgpkg",
+    "value" : "com.android.mms"
+  }, {
+    "name" : "productName",
+    "value" : "65 inch tv"
+  }, {
+    "name" : "udupipin",
+    "value" : "576101"
+  }, {
+    "name" : "userid",
+    "value" : "arunsiva.g@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "d3f0fa5e8feabe49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595248311249,
+        "stop" : 1595248314485,
+        "duration" : 3236
+      }
+    }, {
+      "uid" : "e64697149020bfb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595246766575,
+        "stop" : 1595246769868,
+        "duration" : 3293
+      }
+    }, {
+      "uid" : "24951859b3f1dc7a",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Terralogics-MacBook-Pro-2.local', ip: 'fe80:0:0:0:80f:7172:aa2e:b854%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_202'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/terralogic/Documents..., appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/terralogic/Documents..., appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: realme 3i, platformName: android, platformVersion: 10.0, udid: JRW4GQMNCECM6PLR}, deviceApiLevel: 29, deviceManufacturer: Realme, deviceModel: RMX1827, deviceName: JRW4GQMNCECM6PLR, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: JRW4GQMNCECM6PLR, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 64, takesScreenshot: true, udid: JRW4GQMNCECM6PLR, viewportRect: {height: 1314, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}\nSession ID: dfaa1ff4-da9f-4e65-a78b-7b16bf68a5f4",
+      "time" : {
+        "start" : 1595246065157,
+        "stop" : 1595246240408,
+        "duration" : 175251
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86cb21a7613123a9.json",
+  "parameterValues" : [ "UDUPI", "UDUPI", "Address saved", "com.android.mms.ui.ConversationList", "com.android.mms", "65 inch tv", "576101", "arunsiva.g@gmail.com" ]
+}

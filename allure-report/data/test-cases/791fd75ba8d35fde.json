@@ -1,0 +1,100 @@
+{
+  "uid" : "791fd75ba8d35fde",
+  "name" : "scrollTVlistSelect",
+  "fullName" : "automation.ebay.Login_Existing_User.scrollTVlistSelect",
+  "historyId" : "5f324b0838377a56ff8daa4d8bc8a134",
+  "time" : {
+    "start" : 1595248384592,
+    "stop" : 1595248397058,
+    "duration" : 12466
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb643abacb980044",
+      "name" : "saveSuccessScreenShot",
+      "source" : "eb643abacb980044.png",
+      "type" : "image/png",
+      "size" : 489679
+    }, {
+      "uid" : "964b35b2f3e87fd5",
+      "name" : "scrollTVlistSelect failed and screenshot taken!",
+      "source" : "964b35b2f3e87fd5.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testClass",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testMethod",
+    "value" : "scrollTVlistSelect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Amazon Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "host",
+    "value" : "Terralogics-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "6898@Terralogics-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expectedautopopulatecityname",
+    "value" : "UDUPI"
+  }, {
+    "name" : "expetedSaveMsg",
+    "value" : "Address saved"
+  }, {
+    "name" : "msgactivty",
+    "value" : "com.android.mms.ui.ConversationList"
+  }, {
+    "name" : "msgpkg",
+    "value" : "com.android.mms"
+  }, {
+    "name" : "productName",
+    "value" : "65 inch tv"
+  }, {
+    "name" : "udupipin",
+    "value" : "576101"
+  }, {
+    "name" : "userid",
+    "value" : "arunsiva.g@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "791fd75ba8d35fde.json",
+  "parameterValues" : [ "UDUPI", "Address saved", "com.android.mms.ui.ConversationList", "com.android.mms", "65 inch tv", "576101", "arunsiva.g@gmail.com" ]
+}

@@ -1,0 +1,171 @@
+[ {
+  "uid" : "71e942e656555de3",
+  "name" : "existingusersignin",
+  "time" : {
+    "start" : 1595248599317,
+    "stop" : 1595248611357,
+    "duration" : 12040
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5f088cee815b7eff",
+  "name" : "viewmsg",
+  "time" : {
+    "start" : 1595248612453,
+    "stop" : 1595248634459,
+    "duration" : 22006
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c74ec69d18efe970",
+  "name" : "filldeliveryaddress",
+  "time" : {
+    "start" : 1595248675423,
+    "stop" : 1595248683463,
+    "duration" : 8040
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "970b128aaeaa9ff3",
+  "name" : "setgreenzonelocation",
+  "time" : {
+    "start" : 1595248337985,
+    "stop" : 1595248361942,
+    "duration" : 23957
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6b27d381f8bba217",
+  "name" : "proceedpay",
+  "time" : {
+    "start" : 1595248769617,
+    "stop" : 1595248776838,
+    "duration" : 7221
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "7caea7c03e72b99c",
+  "name" : "navtoAddresform",
+  "time" : {
+    "start" : 1595248657695,
+    "stop" : 1595248670168,
+    "duration" : 12473
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "86cb21a7613123a9",
+  "name" : "verifydropdown",
+  "time" : {
+    "start" : 1595248683465,
+    "stop" : 1595248686586,
+    "duration" : 3121
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fae8b884aa1efd74",
+  "name" : "switchmsgapp",
+  "time" : {
+    "start" : 1595248611533,
+    "stop" : 1595248612450,
+    "duration" : 917
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5d373802faa2b0d0",
+  "name" : "gotocartview",
+  "time" : {
+    "start" : 1595248765036,
+    "stop" : 1595248769615,
+    "duration" : 4579
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "22cfeeb0710a9515",
+  "name" : "userlangpref",
+  "time" : {
+    "start" : 1595248634465,
+    "stop" : 1595248657687,
+    "duration" : 23222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1e654ed51b45868",
+  "name" : "verifydropdown",
+  "time" : {
+    "start" : 1595248686588,
+    "stop" : 1595248701018,
+    "duration" : 14430
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "60585d64a0ab20e3",
+  "name" : "searchTV",
+  "time" : {
+    "start" : 1595248710156,
+    "stop" : 1595248720302,
+    "duration" : 10146
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "81e43d4f282d4692",
+  "name" : "navigatehome",
+  "time" : {
+    "start" : 1595248705179,
+    "stop" : 1595248710151,
+    "duration" : 4972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44b42678c6e548e2",
+  "name" : "verifySaveAddressConfirmation",
+  "time" : {
+    "start" : 1595248701026,
+    "stop" : 1595248705178,
+    "duration" : 4152
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "8b2cce7da3dfc3be",
+  "name" : "selectnewAddresform",
+  "time" : {
+    "start" : 1595248670170,
+    "stop" : 1595248674234,
+    "duration" : 4064
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6b166dbfcdac9851",
+  "name" : "tvDetails",
+  "time" : {
+    "start" : 1595248733672,
+    "stop" : 1595248765034,
+    "duration" : 31362
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e9afa3d9e9f50f72",
+  "name" : "scrollTVlistSelect",
+  "time" : {
+    "start" : 1595248720307,
+    "stop" : 1595248733669,
+    "duration" : 13362
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

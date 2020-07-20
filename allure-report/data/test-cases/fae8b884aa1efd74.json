@@ -1,0 +1,164 @@
+{
+  "uid" : "fae8b884aa1efd74",
+  "name" : "switchmsgapp",
+  "fullName" : "automation.ebay.Login_Existing_User.switchmsgapp",
+  "historyId" : "74bceea5b7281bbd8f08d57261776a18",
+  "time" : {
+    "start" : 1595248611533,
+    "stop" : 1595248612450,
+    "duration" : 917
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforestart",
+    "time" : {
+      "start" : 1595248582443,
+      "stop" : 1595248599190,
+      "duration" : 16747
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "56819d0082c36b9b",
+      "name" : "saveSuccessScreenShot",
+      "source" : "56819d0082c36b9b.png",
+      "type" : "image/png",
+      "size" : 196642
+    }, {
+      "uid" : "69b7dbc749085163",
+      "name" : "switchmsgapp failed and screenshot taken!",
+      "source" : "69b7dbc749085163.txt",
+      "type" : "text/plain",
+      "size" : 41
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1595248776840,
+      "stop" : 1595248777228,
+      "duration" : 388
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testClass",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "testMethod",
+    "value" : "switchmsgapp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Amazon Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "automation.ebay.Login_Existing_User"
+  }, {
+    "name" : "host",
+    "value" : "Terralogics-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7008@Terralogics-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "com.android.mms"
+  }, {
+    "name" : "arg1",
+    "value" : "com.android.mms.ui.ConversationList"
+  }, {
+    "name" : "expectedautopopulatecityname",
+    "value" : "UDUPI"
+  }, {
+    "name" : "expetedSaveMsg",
+    "value" : "Address saved"
+  }, {
+    "name" : "msgactivty",
+    "value" : "com.android.mms.ui.ConversationList"
+  }, {
+    "name" : "msgpkg",
+    "value" : "com.android.mms"
+  }, {
+    "name" : "productName",
+    "value" : "65 inch tv"
+  }, {
+    "name" : "udupipin",
+    "value" : "576101"
+  }, {
+    "name" : "userid",
+    "value" : "arunsiva.g@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "5cc3d31c67153ce1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595248234872,
+        "stop" : 1595248236010,
+        "duration" : 1138
+      }
+    }, {
+      "uid" : "b525a018d3de7ce7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595246670898,
+        "stop" : 1595246672071,
+        "duration" : 1173
+      }
+    }, {
+      "uid" : "545d3de45acdce8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595245968863,
+        "stop" : 1595245970075,
+        "duration" : 1212
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fae8b884aa1efd74.json",
+  "parameterValues" : [ "com.android.mms", "com.android.mms.ui.ConversationList", "UDUPI", "Address saved", "com.android.mms.ui.ConversationList", "com.android.mms", "65 inch tv", "576101", "arunsiva.g@gmail.com" ]
+}
