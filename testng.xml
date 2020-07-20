@@ -18,7 +18,7 @@
 	<parameter name="appiumurl" value="http://0.0.0.0:4723/wd/hub" />
 	-->
 	<!-- Enter the Amazon App UserDetails in Value filed Either Mobile Number or Email ID -->
-    <parameter name="userid" value="arunsiva.g@gmail.com" />
+    <parameter name="userid" value="" />
     
     <!-- Enter the Message App Package and Activity Details Below to Switch Apps -->
     <parameter name="msgpkg" value="com.android.mms" />
