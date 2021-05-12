@@ -29,7 +29,7 @@ public class Des_Caps {
 	@BeforeClass
 	public void beforestart() throws IOException{
 
-		FileInputStream descapinput = new FileInputStream("/Users/terralogic/Documents/workspace/ebay/src/main/resources/properties/config.properties");
+		FileInputStream descapinput = new FileInputStream("src/main/resources/properties/config.properties");
 		Properties propobj = new Properties();
 		if(descapinput!=null){
 			propobj.load(descapinput);	
