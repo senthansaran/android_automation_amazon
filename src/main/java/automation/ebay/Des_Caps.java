@@ -50,7 +50,7 @@ public class Des_Caps {
 		capabilities.setCapability("appPackage",propobj.getProperty("apppackage"));
 		capabilities.setCapability("autoGrantPermissions",propobj.getProperty("permission"));
 		appium = new AndroidDriver<MobileElement>(new URL(propobj.getProperty("appiumurl")), capabilities);
-		appium.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//appium.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		apachelog.info("****DesiredCapabilities Loaded Succesfully****");
 
